@@ -51,6 +51,7 @@ adminRouter.delete("/article/:id", (req, res) => {
 
 // Admin Product
 adminRouter.get("/products", getAllProduct);
+
 adminRouter.get("/product/:id", getProductById);
 adminRouter.post("/product", productFormValidator, createProduct);
 adminRouter.patch("/product/:id", updateProduct);

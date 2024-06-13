@@ -14,6 +14,7 @@ officerRouter.patch("/profile", (req, res) => {
 // Officer Alert
 officerRouter.get("/alerts", (req, res) => {
   res.send("Officer Look All Alert");
+});
 
 officerRouter.get("/alert/:id", (req, res) => {
   res.send("Officer Look Detail Alert");
@@ -55,6 +56,5 @@ officerRouter.patch("/perception/:id", (req, res) => {
 officerRouter.delete("/perception/:id", (req, res) => {
   res.send("Officer Delete Perception");
 });
-
 
 export default officerRouter;
