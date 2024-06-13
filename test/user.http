@@ -1,0 +1,39 @@
+### user profile page
+GET http://localhost:2000/user/profile
+Content-Type: application/json 
+
+### user patch profile
+PATCH  http://localhost:2000/user/profile
+Content-Type: application/json 
+
+### user post comment on artilce 
+POST http://localhost:2000/user/comment
+Content-Type: application/json 
+
+### user buying products
+POST http://localhost:2000/user/buy
+Content-Type: application/json 
+
+### user get all forms
+GET http://localhost:2000/user/forms
+Content-Type: application/json 
+
+### user get one form by id
+GET http://localhost:2000/user/form/2
+Content-Type: application/json 
+
+### user post form
+POST http://localhost:2000/user/form
+Content-Type: application/json 
+
+### user get all alert
+GET http://localhost:2000/user/alerts
+Content-Type: application/json 
+
+### user get all alert by id
+GET http://localhost:2000/user/alert/2
+Content-Type: application/json 
+
+### user post alert
+POST http://localhost:2000/user/alert
+Content-Type: application/json

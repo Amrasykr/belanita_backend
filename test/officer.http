@@ -1,0 +1,52 @@
+### Officer profile page
+GET http://localhost:2000/officer/dashboard/profile
+Content-Type: application/json 
+
+### Officer patch profile
+PATCH  http://localhost:2000/officer/dashboard/profile
+Content-Type: application/json 
+
+### Officer get all alert 
+GET http://localhost:2000/officer/dashboard/alerts
+Content-Type: application/json 
+
+### Officer get alert by id
+GET http://localhost:2000/officer/dashboard/alert/2
+Content-Type: application/json 
+
+### Officer patch alert by id
+PATCH  http://localhost:2000/officer/dashboard/alert/2
+Content-Type: application/json 
+
+### Officer delete alert by id
+DELETE  http://localhost:2000/officer/dashboard/alert/2
+Content-Type: application/json
+
+### Officer get all form
+GET http://localhost:2000/officer/dashboard/forms
+Content-Type: application/json
+
+### Officer get form by id
+GET http://localhost:2000/officer/dashboard/form/2
+Content-Type: application/json
+
+### Officer patch form by id
+PATCH  http://localhost:2000/officer/dashboard/form/2
+Content-Type: application/json
+
+### Officer delete form by id
+DELETE  http://localhost:2000/officer/dashboard/form/2
+Content-Type: application/json
+
+
+### officer create preception by form id
+POST http://localhost:2000/officer/dashboard/perception/2
+Content-Type: application/json
+
+### officer patch preception by form id
+PATCH http://localhost:2000/officer/dashboard/perception/2
+Content-Type: application/json
+
+### officer delete preception by form id
+DELETE http://localhost:2000/officer/dashboard/perception/2
+Content-Type: application/json

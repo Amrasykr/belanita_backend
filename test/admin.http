@@ -1,0 +1,83 @@
+### Admin profile page
+GET http://localhost:2000/admin/dashboard/profile
+Content-Type: application/json 
+### Admin patch profile
+PATCH http://localhost:2000/admin/dashboard/profile
+Content-Type: application/json 
+
+
+### Officer get all user
+GET http://localhost:2000/admin/dashboard/users
+Content-Type: application/json 
+### Officer get user by id
+GET http://localhost:2000/admin/dashboard/user/2
+Content-Type: application/json 
+### Officer create user
+POST http://localhost:2000/admin/dashboard/user
+Content-Type: application/json 
+
+{
+    "name" : "Abdul Latif new",
+    "email" : "latifnew@gmail.com",
+    "password" : "latifnew",
+    "role" : "user",
+    "nim" : "0110222114",
+    "status" : "inactive"
+}
+### Admin patch user by id
+PATCH http://localhost:2000/admin/dashboard/user/5
+Content-Type: application/json 
+
+{
+    "name" : "Abdul Latif ibtida"
+}
+### Admin delete user by id
+DELETE  http://localhost:2000/admin/dashboard/user/7
+Content-Type: application/json 
+
+
+### Admin get all Article
+GET http://localhost:2000/admin/dashboard/articles
+Content-Type: application/json 
+### Admin get article by id   
+GET http://localhost:2000/admin/dashboard/article/2
+Content-Type: application/json 
+### Admin post article 
+POST http://localhost:2000/admin/dashboard/article
+Content-Type: application/json 
+### Admin patch article by id
+PATCH  http://localhost:2000/admin/dashboard/article/2
+Content-Type: application/json 
+### Admin delete article by id
+DELETE  http://localhost:2000/admin/dashboard/article/2
+Content-Type: application/json
+
+
+### Admin get all product
+GET http://localhost:2000/admin/dashboard/products
+Content-Type: application/json 
+### Admin get product by id
+GET http://localhost:2000/admin/dashboard/product/1
+Content-Type: application/json
+### Admin post product
+POST http://localhost:2000/admin/dashboard/product
+Content-Type: application/json
+
+{
+    "name" : "Topi",
+    "price" : 120000,
+    "stock" : 300,
+    "description" : "a cap",
+    "image" : "dadad.jpg"
+}
+### Admin patch product by id
+PATCH http://localhost:2000/admin/dashboard/product/5
+Content-Type: application/json
+
+{
+    "name" : "komdol"
+
+}
+### Admin delete product by id
+DELETE http://localhost:2000/admin/dashboard/product/5
+Content-Type: application/json

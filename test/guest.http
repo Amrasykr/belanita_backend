@@ -1,0 +1,16 @@
+### Products Page
+GET http://localhost:2000/products
+Content-Type: application/json
+
+### Product Detail Page
+GET http://localhost:2000/product/1
+Content-Type: application/json
+
+### Articles Page
+GET http://localhost:2000/articles
+Content-Type: application/json
+
+
+### Article Detail Page
+GET http://localhost:2000/article/1
+Content-Type: application/json
